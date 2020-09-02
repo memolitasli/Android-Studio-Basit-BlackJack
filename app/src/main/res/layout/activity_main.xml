@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#90BAB6"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tv_kasatext"
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:text="Kasa : " />
+
+    <Button
+        android:id="@+id/btn_tamam"
+        android:layout_width="match_parent"
+        android:layout_height="78dp"
+        android:text="Dur" />
+
+    <Button
+        android:id="@+id/btn_devam"
+        android:layout_width="match_parent"
+        android:layout_height="87dp"
+        android:text="Kart Ver" />
+
+    <TextView
+        android:id="@+id/tv_oyuncu"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:text="Oyuncu : " />
+
+</LinearLayout>
